@@ -23,7 +23,7 @@ public class Main {
 
         menu();
         int op = Integer.parseInt(ui.read());
-        while (op != 4){
+        while (op != 5){
             switch (op){
                 case 1:
                     printMap(map);
@@ -32,10 +32,20 @@ public class Main {
                     op = Integer.parseInt(ui.read());
                     break;
                 case 2:
-                    // mostrar categoria del producto
+                    ui.print("Ingrese le producto para saber su categoria: ");
+                    String prod = ui.read();
+                    mostrarCategoria(prod, map);
+                    menu();
                     break;
                 case 3:
-                    //Mostrar los datos del producto
+                    ui.print("Listado de los productos del usuario");
+                    printMap(userMap);
+                    menu();
+                    break;
+                case 4:
+                    ui.print("Listado de los productos del supermercado");
+                    printMap(map);
+                    menu();
                     break;
             }
         }
@@ -46,7 +56,8 @@ public class Main {
         ui.print("1. Agregar al carrito");
         ui.print("2. Mostrar categoria del producto");
         ui.print("3. Mostrar los datos del producto");
-        ui.print("4. Salir");
+        ui.print("4. Mostrar la lista de productos en el inventario");
+        ui.print("5. Salir");
     }
     public static void printMap(Map<String, LinkedList<String>> map){
         for (String key : map.keySet()) {
@@ -130,5 +141,16 @@ public class Main {
         ui.print("Carrito del usuario: ");
         printMap(userMap);
         return userMap;
+    }
+
+    public static void mostrarCategoria(String prod,Map<String,LinkedList<String>> map){
+        for (String key : map.keySet()) {
+            LinkedList<String> values = map.get(key);
+            for (String value : values) {
+                if(value.equals(prod)){
+                    ui.print("Categoria del producto: "+key);
+                }
+            }
+        }
     }
 }
