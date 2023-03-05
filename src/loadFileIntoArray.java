@@ -16,7 +16,7 @@ public class loadFileIntoArray {
 
         for(String producto : arr){
             String[] productoIndividual = producto.split("\\|");
-            Product p = new Product(productoIndividual[0],productoIndividual[1]);
+            Product p = new Product(productoIndividual[0].trim(),productoIndividual[1].trim());
             arrP.add(p);
         }
         return arrP;

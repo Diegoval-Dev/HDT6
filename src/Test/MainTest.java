@@ -35,8 +35,13 @@ class MainTest {
         }else {
             System.out.println("no existen");
         }
-
-
-
+        System.out.println(mapHashMap);
+        /*for (String key : mapHashMap.keySet()) {
+            System.out.println(key + ":");
+            LinkedList<String> values = mapHashMap.get(key);
+            for (String value : values) {
+                System.out.println("  " + value);
+            }
+        }*/
     }
 }
