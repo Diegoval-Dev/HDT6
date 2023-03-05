@@ -1,10 +1,7 @@
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class Factory {
-    public Map<String, String> wichMap(String l){
+    public Map<String, LinkedList<String>> wichMap(String l){
         switch (l){
             case "1":
                 return new HashMap<>();
