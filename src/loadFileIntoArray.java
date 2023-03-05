@@ -6,7 +6,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class loadFileIntoArray {
-
+    /**
+     * Cargar los datos del archivo a un arraylist de objetos tipo producto
+     * @return array con los objetos
+     */
     public ArrayList<Product> loadFileIntoArraylist(){
         ReadFile rd = new ReadFile();
         Map<String, String> map = new HashMap<>();

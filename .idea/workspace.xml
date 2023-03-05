@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68902b76-dad1-408c-b6ee-eebbeca4a960" name="Changes" comment="EL usuario ya puede agregar sus productos al carrito">
+    <list default="true" id="68902b76-dad1-408c-b6ee-eebbeca4a960" name="Changes" comment="Se pueden mostrar los dos map">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/loadFileIntoArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/loadFileIntoArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +119,7 @@
       <updated>1677866014869</updated>
       <workItem from="1677866016310" duration="3063000" />
       <workItem from="1677948926787" duration="5398000" />
-      <workItem from="1678035238545" duration="11542000" />
+      <workItem from="1678035238545" duration="12617000" />
     </task>
     <task id="LOCAL-00001" summary="Se cargan los productos dentro del documento y se crea el hash con el factory">
       <created>1677981986448</created>
@@ -138,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678048605937</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Se pueden mostrar los dos map">
+      <created>1678058040224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678058040224</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +170,8 @@
     <MESSAGE value="Se cargan los productos dentro del documento y se crea el hash con el factory" />
     <MESSAGE value="Datos cargados dentro de un mapa" />
     <MESSAGE value="EL usuario ya puede agregar sus productos al carrito" />
-    <option name="LAST_COMMIT_MESSAGE" value="EL usuario ya puede agregar sus productos al carrito" />
+    <MESSAGE value="Se pueden mostrar los dos map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se pueden mostrar los dos map" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
